@@ -1,0 +1,1 @@
+java -jar uploader-v1.0.jar -port 8888 -uploadpath .
