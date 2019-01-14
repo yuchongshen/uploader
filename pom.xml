@@ -19,7 +19,6 @@
 		    <artifactId>jetty-server</artifactId>
 		    <version>9.4.14.v20181114</version>
 		</dependency>
-
 		<dependency>
 			<groupId>org.eclipse.jetty</groupId>
 			<artifactId>jetty-servlets</artifactId>
@@ -30,7 +29,6 @@
 			<artifactId>jetty-servlet</artifactId>
 			<version>9.4.14.v20181114</version>
 		</dependency>
-
 		 <!-- JAX-RS -->
         <dependency>
             <groupId>javax.ws.rs</groupId>
@@ -53,14 +51,11 @@
             <artifactId>jersey-client</artifactId>
             <version>${jersey2.version}</version>
         </dependency>
-        
-        
  		<dependency>
 		    <groupId>org.glassfish.jersey.media</groupId>
 		    <artifactId>jersey-media-multipart</artifactId>
 		    <version>2.19</version>
 		</dependency>
-		
 	</dependencies>
 	
 	
