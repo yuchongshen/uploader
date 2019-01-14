@@ -17,12 +17,15 @@ import javax.ws.rs.core.MediaType;
 
 import org.glassfish.jersey.media.multipart.FormDataContentDisposition;
 import org.glassfish.jersey.media.multipart.FormDataParam;
+/**
+ * 功能:处理上传
+ * @author yuchong.shen
+ * 2019年1月10日
+ * 
+ */
 @Path("/upload")
 @Singleton
 public class Uploader {
-	public Uploader(){
-		System.out.println("Uploader......");
-	}
 	@POST
 	@Consumes({MediaType.MULTIPART_FORM_DATA})
 	public String  uploadFile(@FormDataParam("file") InputStream fileInputStream,

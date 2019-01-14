@@ -10,9 +10,10 @@ import org.eclipse.jetty.servlet.ServletContextHandler;
 import org.eclipse.jetty.servlet.ServletHolder;
 import org.eclipse.jetty.servlets.CrossOriginFilter;
 /**
- * @author vellhe@tencent.com
- * @date 2017/7/7
- * @description 提供REST接口
+ * 功能:服务启动
+ * @author yuchong.shen
+ * 2019年1月10日
+ * 
  */
 @Path("/")
 public class RestInterface {
