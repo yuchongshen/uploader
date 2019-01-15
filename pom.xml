@@ -71,7 +71,7 @@
                     </descriptorRefs>
                     <archive>
                         <manifest>
-                            <mainClass>com.gbd.RestInterface</mainClass>
+                            <mainClass>yuchongshen.uploader.RestInterface</mainClass>
                         </manifest>
                     </archive>
                </configuration>
